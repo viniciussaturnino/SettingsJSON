@@ -1,81 +1,81 @@
 
 {
-  "editor.renderLineHighlight": "gutter",
+    "editor.renderLineHighlight": "gutter",
+  
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+  
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2,
+  
+    "editor.parameterHints.enabled": false,
+  
+    "workbench.colorTheme": "Omni",
+      
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile",
+  
+    "workbench.editor.labelFormat": "short",
+    "workbench.editorAssociations": [
+      {
+          "viewType": "jupyter.notebook.ipynb",
+          "filenamePattern": "*.ipynb"
+      }
+    ],
 
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
-
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "editor.detectIndentation": false,
-  "editor.tabSize": 2,
-
-  "editor.parameterHints.enabled": false,
-
-  "workbench.colorTheme": "Omni",
+    "material-icon-theme.folders.associations": {
+      "infra": "app",
+      "entities": "class",
+      "domain": "class",
+      "schemas": "class",
+      "typeorm": "database",
+      "repositories": "mappings",
+      "http": "container",
+      "migrations": "tools",
+      "modules": "components",
+      "implementations": "core",
+      "dtos": "typescript",
+      "fakes": "mock",
+      "websockets": "pipe",
+      "protos": "pipe",
+      "grpc": "pipe",
+      "providers": "include",
+      "subscribers": "messages",
+      "useCases": "controller",
+      "kafka": "scripts",
+      "mappers": "meta",
+      "_shared": "shared",
+      "eslint-config": "tools",
+      "kube": "kubernetes"
+    },
+  
+    "explorer.compactFolders": false,
     
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.startupEditor": "newUntitledFile",
-
-  "workbench.editor.labelFormat": "short",
-  "workbench.editorAssociations": [
-    {
-        "viewType": "jupyter.notebook.ipynb",
-        "filenamePattern": "*.ipynb"
-    }
-  ],
-
-  "material-icon-theme.folders.associations": {
-    "infra": "app",
-    "entities": "class",
-    "domain": "class",
-    "schemas": "class",
-    "typeorm": "database",
-    "repositories": "mappings",
-    "http": "container",
-    "migrations": "tools",
-    "modules": "components",
-    "implementations": "core",
-    "dtos": "typescript",
-    "fakes": "mock",
-    "websockets": "pipe",
-    "protos": "pipe",
-    "grpc": "pipe",
-    "providers": "include",
-    "subscribers": "messages",
-    "useCases": "controller",
-    "kafka": "scripts",
-    "mappers": "meta",
-    "_shared": "shared",
-    "eslint-config": "tools",
-    "kube": "kubernetes"
-  },
-
-  "explorer.compactFolders": false,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.cursorStyle": "line",
   
-  "terminal.integrated.shell.osx": "/bin/zsh",
-  "terminal.integrated.cursorStyle": "line",
-
-  "emmet.syntaxProfiles": { "javascript": "jsx" },
-  "emmet.includeLanguages": { "javascript": "javascriptreact" },
-
-  "breadcrumbs.enabled": true,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": false,
-
-  "sync.gist": "dd411e57d723a8d3f5c3d57b9048a5a5",
-  "cSpell.userWords": [
-      "keycloak",
-      "mariadb",
-      "mysqladmin"
-  ],
-  "cSpell.enabled": false,
-  "git.autofetch": true,
-  "window.zoomLevel": 0.5,
+    "emmet.syntaxProfiles": { "javascript": "jsx" },
+    "emmet.includeLanguages": { "javascript": "javascriptreact" },
   
-  "git.suggestSmartCommit": false,
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "material-icon-theme.folders.color": "#7cb342",
-}
+    "breadcrumbs.enabled": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+  
+    "sync.gist": "dd411e57d723a8d3f5c3d57b9048a5a5",
+    "cSpell.userWords": [
+        "keycloak",
+        "mariadb",
+        "mysqladmin"
+    ],
+    "cSpell.enabled": false,
+    "git.autofetch": true,
+    
+    "git.suggestSmartCommit": false,
+    "editor.suggestSelection": "first",
+    "window.zoomLevel": 0.5,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "material-icon-theme.folders.color": "#7cb342",
+  }
